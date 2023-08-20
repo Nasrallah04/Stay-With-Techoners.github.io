@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-countainer {
+    height: 200vh;
+    width: 100%;
+    /* background-color: lightgray; */
+}
+
+.countainer{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+.navigation {
+    height: 15%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+
+.navigation .logo {
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+
+.navigation .logo p{
+    text-align: center;
+    width: 100%;
+}
+
+.navigation .nav {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    background-color: #01df70;
+    align-items: center;
+}
+
+.navigation .nav a{
+    height: 100%;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.main {
+    /* height: 85%; */
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    position: relative;
+}
+
+.main .picture {
+    height: 100%;
+    width: 70%;
+    /* background-color: darkkhaki; */
+
+}
+
+.main .rest {
+    height: 100%;
+    width: 30%;
+    background-color: #01df70;
+}
+
+
+
+
+.countainer-2 {
+    height: 100vh;
+    margin: auto;
+    width: 80%;
+
+}
+
+.centre {
+    display: flex;
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+
+.one, .two ,.three {
+    width: 33.3%;
+    /* background-color: darkgoldenrod; */
+    /* border: solid 2px black; */
+}
+.one h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.one button {
+    background-color:#01df70;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.one p {
+    color: gray;
+}
+
+.two, .three {
+    text-align: center;
+}
+.two h3, .three h3 {
+    color: gray;
+
+}
+.two p, .three p{
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+
+.two p:last-child, .three p:last-child{
+    font-size: 16px;
+    text-align:center;
+    color: gray;
+    margin-top: 20px;
+
+}
+
+.abs-erea {
+    /* background-color: lightgrey; */
+    height: 350px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-25%, -40%); 
+    padding: 10px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.abs-erea .free-erea {
+    width: 30%;
+    height: 100%;
+    background: #01df70;
+    opacity: 0.5;
+}
+.abs-erea .stay {
+    background-color: white;
+
+    padding: 75px 50px;
+    position: relative;
+}
+
+.abs-erea .stay p{
+    padding-top: 20px;
+}
+
+.button {
+    position: absolute;
+    bottom: 0%;
+    transform: translate(75%, 50%);
+
+}
+
+.learn-more {
+        padding: 10px;
+        background-color: #01df70;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 20px 40px;
+}
+
+.learn-more a {
+    text-decoration: none;
+    color: white;
+}
+
+.abs-erea .social {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* background-color: aqua; */
+    transform: translate(40%,200%);
+}
+
+.social span{
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.minus-plus {
+    position: absolute;
+
+
+}
+
+.minus-plus p{
+    font-size: 30px;
+    transform: translate(-1000%,200%);
+    padding-bottom: 20px;
+
+}
